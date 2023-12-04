@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .inverted-columns {
+      display: flex;
+      justify-content: space-between;
+      transform: scaleY(-1);
+      margin-top: 50px; /* Adjust margin as needed */
+    }
+
+    .column {
+      width: 30%; /* Adjust the column width as needed */
+      background-color: #f0f0f0; /* Set background color */
+      padding: 20px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="inverted-columns">
+    <div class="column">
+      <h2>Column 1</h2>
+      <p>Announcement or information goes here.</p>
+    </div>
+    <div class="column">
+      <h2>Column 2</h2>
+      <p>More details about your website.</p>
+    </div>
+    <div class="column">
+      <h2>Column 3</h2>
+      <p>Additional information or announcements.</p>
+    </div>
+  </div>
+</body>
+</html>
